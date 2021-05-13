@@ -1,0 +1,61 @@
+p.a {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 250px;
+}
+p.b {
+    color: red;
+}
+
+div.image {
+    width: 0;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+    margin-left: 350px;
+    font-size: 110%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-left: 200px;
+}
+
+.row {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+    width: 1000px;
+}
+
+a:link {
+    color:rgba(13, 12, 104, 0.685);
+}
+
+a:visited {
+    color:rgb(255, 255, 255);
+}
